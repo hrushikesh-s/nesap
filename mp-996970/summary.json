@@ -1,0 +1,47 @@
+{
+  "Number of bands": 24,
+  "Number of q-points": 1515,
+  "Has NAC": true,
+  "Has imaginary frequencies": true,
+  "Has eigendisplacements": false,
+  "Min frequency": -1.2512592643,
+  "Max frequency": 18.9900231398,
+  "RMSE": "NA",
+  "Gamma artifact": false,
+  "Predicted Phonon stable": false,
+  "High symm path scheme": "Latimer\u2013Munro",
+  "mp_id": "mp-996970",
+  "work_dir": "/pscratch/sd/h/hrushi99/atomate2/pheasy/postproc/mp-996970_new_supercell_iteration1_displaced_configs/965814",
+  "rmse_file_directory": null,
+  "rmse_status": "no_out_files",
+  "chosen_variant": "fc",
+  "imag_qpoints": 208,
+  "total_qpoints": 1515,
+  "band_stats_source": "band_latimer_munro.yaml",
+  "owner": "HS",
+  "nsites_supercell": 216,
+  "supercell_matrix": [
+    [
+      3,
+      0,
+      0
+    ],
+    [
+      0,
+      3,
+      0
+    ],
+    [
+      0,
+      0,
+      3
+    ]
+  ],
+  "e_above_hull": null,
+  "cutoff_correction_fixed_all_real": false,
+  "positivity_threshold_thz": -0.01,
+  "fc_min_frequency": -1.2512592643,
+  "chosen_min_frequency": -1.2512592643,
+  "fc_predicted_stable": false,
+  "new_supercell": "yes"
+}

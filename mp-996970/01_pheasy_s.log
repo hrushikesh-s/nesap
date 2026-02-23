@@ -1,0 +1,17 @@
+[2026-02-23 13:58:25,198] Start Pheasy.
+/^^^^^^^  /^^     /^^/^^^^^^^^      /^         /^^ ^^  /^^      /^^
+/^^    /^^/^^     /^^/^^           /^ ^^     /^^    /^^ /^^    /^^ 
+/^^    /^^/^^     /^^/^^          /^  /^^     /^^        /^^ /^^   
+/^^^^^^^  /^^^^^^ /^^/^^^^^^     /^^   /^^      /^^        /^^     
+/^^       /^^     /^^/^^        /^^^^^^ /^^        /^^     /^^     
+/^^       /^^     /^^/^^       /^^       /^^ /^^    /^^    /^^     
+/^^       /^^     /^^/^^^^^^^^/^^         /^^  /^^ ^^      /^^  0.0.2
+[2026-02-23 13:58:25,216] System: Ag2Bi2O4
+[2026-02-23 13:58:25,216] Space group: C2/m (12), 4 symmetry operations found.
+[2026-02-23 13:58:25,216] Creating 3 x 3 x 3 supercell (216 atoms).
+[2026-02-23 13:58:25,232] Starting to generate cluster space up to 2-order.
+[2026-02-23 13:58:25,232] Cutoff distance (A) for 2-order IFCs: inf
+[2026-02-23 13:58:29,328] Summary of cluster space:
+[2026-02-23 13:58:29,328] - HARM    | cluster number: 330 | IFC number: 2970
+[2026-02-23 13:58:29,996] Cluster space generation finished, time cost: 0:00:04.763902.
+[2026-02-23 13:58:29,996] Finalize Pheasy, total time cost: 0:00:04.800201.

@@ -1,0 +1,414 @@
+{
+    "spec": {
+        "_add_launchpad_and_fw_id": true,
+        "_tasks": [
+            {
+                "job": {
+                    "@module": "jobflow.core.job",
+                    "@class": "Job",
+                    "@version": "0.1.19",
+                    "function": {
+                        "@module": "atomate2.common.jobs.pheasy",
+                        "@callable": "generate_frequencies_eigenvectors",
+                        "@bound": null
+                    },
+                    "function_args": [],
+                    "function_kwargs": {
+                        "supercell_matrix": {
+                            "@module": "jobflow.core.reference",
+                            "@class": "OutputReference",
+                            "@version": null,
+                            "uuid": "68a402bf-f958-4a12-862f-38a731503875",
+                            "attributes": [],
+                            "output_schema": null
+                        },
+                        "displacement": 0.01,
+                        "num_displaced_supercells": 0,
+                        "cal_anhar_fcs": false,
+                        "displacement_anhar": 0.08,
+                        "num_disp_anhar": 0,
+                        "fcs_cutoff_radius": [
+                            -1,
+                            12,
+                            10
+                        ],
+                        "renorm_phonon": false,
+                        "renorm_temp": [
+                            100,
+                            700,
+                            100
+                        ],
+                        "cal_ther_cond": false,
+                        "ther_cond_mesh": [
+                            20,
+                            20,
+                            20
+                        ],
+                        "ther_cond_temp": [
+                            100,
+                            700,
+                            100
+                        ],
+                        "sym_reduce": true,
+                        "symprec": 0.001,
+                        "use_symmetrized_structure": "primitive",
+                        "kpath_scheme": "seekpath",
+                        "code": "vasp",
+                        "mp_id": "mp-556595",
+                        "structure": {
+                            "@module": "jobflow.core.reference",
+                            "@class": "OutputReference",
+                            "@version": null,
+                            "uuid": "cc86e637-1662-4526-aed9-63580cf45ed8",
+                            "attributes": [],
+                            "output_schema": null
+                        },
+                        "displacement_data": {
+                            "@module": "jobflow.core.reference",
+                            "@class": "OutputReference",
+                            "@version": null,
+                            "uuid": "cec3218f-9177-482c-af49-b889e41def0e",
+                            "attributes": [],
+                            "output_schema": null
+                        },
+                        "epsilon_static": [
+                            [
+                                5.73832665,
+                                -0.0,
+                                0.0
+                            ],
+                            [
+                                -0.0,
+                                5.13800418,
+                                0.23942755
+                            ],
+                            [
+                                0.0,
+                                0.23942754,
+                                5.71238806
+                            ]
+                        ],
+                        "born": [
+                            [
+                                [
+                                    4.17458,
+                                    -0.0,
+                                    0.0
+                                ],
+                                [
+                                    -0.0,
+                                    3.81602,
+                                    0.05742
+                                ],
+                                [
+                                    0.0,
+                                    0.05531,
+                                    4.19396
+                                ]
+                            ],
+                            [
+                                [
+                                    4.17458,
+                                    -0.0,
+                                    0.0
+                                ],
+                                [
+                                    -0.0,
+                                    3.81602,
+                                    0.05742
+                                ],
+                                [
+                                    0.0,
+                                    0.05531,
+                                    4.19396
+                                ]
+                            ],
+                            [
+                                [
+                                    4.29853,
+                                    -0.0,
+                                    0.0
+                                ],
+                                [
+                                    -0.0,
+                                    4.03629,
+                                    0.16722
+                                ],
+                                [
+                                    0.0,
+                                    0.17928,
+                                    4.01711
+                                ]
+                            ],
+                            [
+                                [
+                                    4.29853,
+                                    -0.0,
+                                    0.0
+                                ],
+                                [
+                                    -0.0,
+                                    4.03629,
+                                    0.16722
+                                ],
+                                [
+                                    0.0,
+                                    0.17928,
+                                    4.01711
+                                ]
+                            ],
+                            [
+                                [
+                                    1.3714,
+                                    -0.0,
+                                    0.0
+                                ],
+                                [
+                                    -0.0,
+                                    -0.1497,
+                                    0.40265
+                                ],
+                                [
+                                    0.0,
+                                    0.37683,
+                                    1.03886
+                                ]
+                            ],
+                            [
+                                [
+                                    -0.36733,
+                                    0.0,
+                                    0.0
+                                ],
+                                [
+                                    0.0,
+                                    0.4189,
+                                    0.41125
+                                ],
+                                [
+                                    0.0,
+                                    0.46747,
+                                    0.98005
+                                ]
+                            ],
+                            [
+                                [
+                                    -2.26449,
+                                    0.0,
+                                    -0.0
+                                ],
+                                [
+                                    0.0,
+                                    -2.10655,
+                                    -0.20791
+                                ],
+                                [
+                                    -0.0,
+                                    -0.24323,
+                                    -2.4965
+                                ]
+                            ],
+                            [
+                                [
+                                    -2.8314,
+                                    0.0,
+                                    -0.0
+                                ],
+                                [
+                                    0.0,
+                                    -2.47613,
+                                    -0.17353
+                                ],
+                                [
+                                    -0.0,
+                                    -0.13567,
+                                    -2.91936
+                                ]
+                            ],
+                            [
+                                [
+                                    -2.2537,
+                                    0.0,
+                                    -0.0
+                                ],
+                                [
+                                    0.0,
+                                    -1.72245,
+                                    -0.29215
+                                ],
+                                [
+                                    -0.0,
+                                    -0.26599,
+                                    -2.11068
+                                ]
+                            ],
+                            [
+                                [
+                                    -2.7524,
+                                    0.0,
+                                    -0.0
+                                ],
+                                [
+                                    0.0,
+                                    -2.54301,
+                                    -0.10407
+                                ],
+                                [
+                                    -0.0,
+                                    -0.14485,
+                                    -2.74931
+                                ]
+                            ],
+                            [
+                                [
+                                    -2.8314,
+                                    0.0,
+                                    -0.0
+                                ],
+                                [
+                                    0.0,
+                                    -2.47613,
+                                    -0.17353
+                                ],
+                                [
+                                    -0.0,
+                                    -0.13567,
+                                    -2.91936
+                                ]
+                            ],
+                            [
+                                [
+                                    -2.7524,
+                                    0.0,
+                                    -0.0
+                                ],
+                                [
+                                    0.0,
+                                    -2.54301,
+                                    -0.10407
+                                ],
+                                [
+                                    -0.0,
+                                    -0.14485,
+                                    -2.74931
+                                ]
+                            ],
+                            [
+                                [
+                                    -2.26449,
+                                    0.0,
+                                    -0.0
+                                ],
+                                [
+                                    0.0,
+                                    -2.10655,
+                                    -0.20791
+                                ],
+                                [
+                                    -0.0,
+                                    -0.24323,
+                                    -2.4965
+                                ]
+                            ]
+                        ],
+                        "total_dft_energy": {
+                            "@module": "jobflow.core.reference",
+                            "@class": "OutputReference",
+                            "@version": null,
+                            "uuid": "806c7365-a5a6-4fb6-bfce-fdc0c01b169e",
+                            "attributes": [],
+                            "output_schema": null
+                        },
+                        "static_run_job_dir": null,
+                        "static_run_uuid": null,
+                        "born_run_job_dir": null,
+                        "born_run_uuid": null,
+                        "optimization_run_job_dir": null,
+                        "optimization_run_uuid": null,
+                        "create_thermal_displacements": false,
+                        "store_force_constants": true
+                    },
+                    "output_schema": {
+                        "@module": "atomate2.common.schemas.pheasy",
+                        "@callable": "PhononBSDOSDoc",
+                        "@bound": null
+                    },
+                    "uuid": "9168a713-8b3e-47ac-834f-1aa26a514a08",
+                    "index": 1,
+                    "name": "generate_frequencies_eigenvectors",
+                    "metadata": {},
+                    "config": {
+                        "@module": "jobflow.core.job",
+                        "@class": "JobConfig",
+                        "@version": "0.1.19",
+                        "resolve_references": true,
+                        "on_missing_references": "error",
+                        "manager_config": {},
+                        "expose_store": false,
+                        "pass_manager_config": true,
+                        "response_manager_config": {}
+                    },
+                    "hosts": [
+                        "9b9aaf96-e3bd-4188-97c7-03e0e1d6d44b"
+                    ],
+                    "metadata_updates": [],
+                    "config_updates": [],
+                    "name_updates": [],
+                    "data": [
+                        {
+                            "@module": "pymatgen.phonon.dos",
+                            "@callable": "PhononDos",
+                            "@bound": null
+                        },
+                        {
+                            "@module": "pymatgen.phonon.bandstructure",
+                            "@callable": "PhononBandStructureSymmLine",
+                            "@bound": null
+                        },
+                        {
+                            "@module": "atomate2.common.schemas.pheasy",
+                            "@callable": "Forceconstants",
+                            "@bound": null
+                        }
+                    ]
+                },
+                "store": null,
+                "_fw_name": "{{jobflow.managers.fireworks.JobFiretask}}"
+            }
+        ]
+    },
+    "fw_id": 967399,
+    "created_on": "2026-01-09T17:52:30.630275",
+    "updated_on": "2026-01-12T09:03:49.435636+00:00",
+    "launches": [
+        {
+            "fworker": {
+                "name": "generate_frequencies_eigenvectors_job_cpu",
+                "category": "",
+                "query": "{\"name\": \"generate_frequencies_eigenvectors\"}",
+                "env": {
+                    "db_file": "/global/homes/h/hrushi99/fw_config_perlmutter/last_job_chatgpt/db.json",
+                    "scratch_dir": "/global/cscratch1/sd/hrushi99",
+                    "incar_update": null
+                }
+            },
+            "fw_id": 967399,
+            "launch_dir": "/pscratch/sd/h/hrushi99/atomate2/pheasy/fw_genfreq/47663506/rank_5",
+            "host": "nid005724",
+            "ip": "128.55.76.195",
+            "trackers": [],
+            "action": null,
+            "state": "RUNNING",
+            "state_history": [
+                {
+                    "state": "RUNNING",
+                    "created_on": "2026-01-12T09:03:49.434117+00:00",
+                    "updated_on": "2026-01-12T09:03:49.434121+00:00"
+                }
+            ],
+            "launch_id": 979802
+        }
+    ],
+    "state": "RUNNING",
+    "name": "generate_frequencies_eigenvectors"
+}

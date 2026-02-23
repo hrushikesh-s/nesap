@@ -1,0 +1,176 @@
+Inside container:
+/opt/conda/envs/atomate2_pheasy/bin/python
+Python 3.9.23
+numpy 1.26.4
+PHEASY 0.0.2
+phonopy 2.28.0
+OMP_NUM_THREADS=128
+
+==== 01_pheasy_s ====
+CMD: pheasy -s --dim 3 3 3 -w 2 --nbody 2
+[2026-02-23 13:58:25,198] Start Pheasy.
+/^^^^^^^  /^^     /^^/^^^^^^^^      /^         /^^ ^^  /^^      /^^
+/^^    /^^/^^     /^^/^^           /^ ^^     /^^    /^^ /^^    /^^ 
+/^^    /^^/^^     /^^/^^          /^  /^^     /^^        /^^ /^^   
+/^^^^^^^  /^^^^^^ /^^/^^^^^^     /^^   /^^      /^^        /^^     
+/^^       /^^     /^^/^^        /^^^^^^ /^^        /^^     /^^     
+/^^       /^^     /^^/^^       /^^       /^^ /^^    /^^    /^^     
+/^^       /^^     /^^/^^^^^^^^/^^         /^^  /^^ ^^      /^^  0.0.2
+[2026-02-23 13:58:25,216] System: Ag2Bi2O4
+[2026-02-23 13:58:25,216] Space group: C2/m (12), 4 symmetry operations found.
+[2026-02-23 13:58:25,216] Creating 3 x 3 x 3 supercell (216 atoms).
+[2026-02-23 13:58:25,232] Starting to generate cluster space up to 2-order.
+[2026-02-23 13:58:25,232] Cutoff distance (A) for 2-order IFCs: inf
+[2026-02-23 13:58:29,328] Summary of cluster space:
+[2026-02-23 13:58:29,328] - HARM    | cluster number: 330 | IFC number: 2970
+[2026-02-23 13:58:29,996] Cluster space generation finished, time cost: 0:00:04.763902.
+[2026-02-23 13:58:29,996] Finalize Pheasy, total time cost: 0:00:04.800201.
+
+==== 02_pheasy_c ====
+CMD: pheasy -c --dim 3 3 3 -w 2
+[2026-02-23 13:58:30,704] Start Pheasy.
+.______    __    __   _______     ___           _______.____    ____ 
+|   _  \  |  |  |  | |   ____|   /   \         /       |\   \  /   / 
+|  |_)  | |  |__|  | |  |__     /  ^  \       |   (----` \   \/   /  
+|   ___/  |   __   | |   __|   /  /_\  \       \   \      \_    _/   
+|  |      |  |  |  | |  |____ /  _____  \  .----)   |       |  |     
+| _|      |__|  |__| |_______/__/     \__\ |_______/        |__|     
+                                                                  0.0.2
+[2026-02-23 13:58:30,710] System: Ag2Bi2O4
+[2026-02-23 13:58:30,710] Space group: C2/m (12), 4 symmetry operations found.
+[2026-02-23 13:58:30,710] Creating 3 x 3 x 3 supercell (216 atoms).
+[2026-02-23 13:58:30,722] Reading and generating cluster space from file, up to 2-order.
+[2026-02-23 13:58:31,261] Cutoff distance (A) for 2-order IFCs: inf
+[2026-02-23 13:58:31,261] Summary of cluster space:
+[2026-02-23 13:58:31,261] - HARM    | cluster number: 330 | IFC number: 2970
+[2026-02-23 13:58:31,261] Starting to construct symmetry constraints and null space.
+[2026-02-23 13:58:31,261] Symmmetry constraints are imposed in Cartesian coordinate.
+[2026-02-23 13:58:31,262] Symmetry constraints on 2-order IFCs:
+[2026-02-23 13:58:31,262] - Imposing space group and permuation symmetry.
+[2026-02-23 13:58:31,628] - Imposing translational invariance.
+[2026-02-23 13:58:32,708] - Calculating null space.
+[2026-02-23 13:58:33,625] - Time cost: 0:00:02.363000.
+[2026-02-23 13:58:33,625] Summary of IFCs:
+[2026-02-23 13:58:33,625] - HARM    | IFC number: 2970  | Free IFC number: 2118
+[2026-02-23 13:58:33,632] Total number of free IFCs: 2118
+[2026-02-23 13:58:33,634] Construction of symmetry constraints finished, time cost: 0:00:02.372213.
+[2026-02-23 13:58:33,635] Finalize Pheasy, total time cost: 0:00:02.934039.
+
+==== 03_pheasy_d ====
+CMD: pheasy -d --dim 3 3 3 --ndata 18 --disp_file
+[2026-02-23 13:58:34,519] Start Pheasy.
+    ___       ___       ___       ___       ___       ___   
+   /\  \     /\__\     /\  \     /\  \     /\  \     /\__\  
+  /::\  \   /:/__/_   /::\  \   /::\  \   /::\  \   |::L__L 
+ /::\:\__\ /::\/\__\ /::\:\__\ /::\:\__\ /\:\:\__\  |:::\__\
+ \/\::/  / \/\::/  / \:\:\/  / \/\::/  / \:\:\/__/  /:;;/__/
+    \/__/    /:/  /   \:\/  /    /:/  /   \::/  /   \/__/   
+             \/__/     \/__/     \/__/     \/__/    0.0.2
+[2026-02-23 13:58:34,525] System: Ag2Bi2O4
+[2026-02-23 13:58:34,525] Space group: C2/m (12), 4 symmetry operations found.
+[2026-02-23 13:58:34,525] Creating 3 x 3 x 3 supercell (216 atoms).
+[2026-02-23 13:58:34,538] Reading and generating cluster space from file, up to 2-order.
+[2026-02-23 13:58:35,074] Cutoff distance (A) for 2-order IFCs: inf
+[2026-02-23 13:58:35,074] Summary of cluster space:
+[2026-02-23 13:58:35,074] - HARM    | cluster number: 330 | IFC number: 2970
+[2026-02-23 13:58:35,074] Starting to construct sensing (displacement) matrix.
+[2026-02-23 13:58:35,074] Reading displaced configurations from file.
+[2026-02-23 13:59:15,927] Construction of sensing (displacement) matrix finished, time cost: 0:00:40.852926.
+[2026-02-23 13:59:15,931] Finalize Pheasy, total time cost: 0:00:41.414680.
+
+==== 04_pheasy_f ====
+CMD: pheasy -f --dim 3 3 3 --ndata 18 -w 2 -l LASSO --std --full_ifc --rasr BHH --hdf5
+[2026-02-23 13:59:16,670] Start Pheasy.
+{_______  {__     {__{________      {_         {__ __  {__      {__
+{__    {__{__     {__{__           {_ __     {__    {__ {__    {__ 
+{__    {__{__     {__{__          {_  {__     {__        {__ {__   
+{_______  {______ {__{______     {__   {__      {__        {__     
+{__       {__     {__{__        {______ {__        {__     {__     
+{__       {__     {__{__       {__       {__ {__    {__    {__     
+{__       {__     {__{________{__         {__  {__ __      {__   0.0.2
+[2026-02-23 13:59:16,677] System: Ag2Bi2O4
+[2026-02-23 13:59:16,677] Space group: C2/m (12), 4 symmetry operations found.
+[2026-02-23 13:59:16,677] Creating 3 x 3 x 3 supercell (216 atoms).
+[2026-02-23 13:59:16,689] Reading and generating cluster space from file, up to 2-order.
+[2026-02-23 13:59:17,219] Cutoff distance (A) for 2-order IFCs: inf
+[2026-02-23 13:59:17,220] Summary of cluster space:
+[2026-02-23 13:59:17,220] - HARM    | cluster number: 330 | IFC number: 2970
+[2026-02-23 13:59:17,220] Reconstructing null space of symmetry constraints from file.
+[2026-02-23 13:59:17,224] Summary of IFCs:
+[2026-02-23 13:59:17,224] - HARM    | IFC number: 2970  | Free IFC number: 2118
+[2026-02-23 13:59:17,224] Total number of free IFCs: 2118
+[2026-02-23 13:59:17,224] Reconstructing sensing (displacement) matrix from file.
+[2026-02-23 13:59:17,342] Starting to fit interatomic force constants.
+[2026-02-23 13:59:17,453] Reading interatomic forces, 18 configurations.
+[2026-02-23 13:59:17,694] Fitting force constants via the coordinate descent LASSO.
+[2026-02-23 13:59:38,694] Summary of force constants fitting:
+[2026-02-23 13:59:38,695] - Reaching the specified tolerance for the optimal alpha after 59 iterations.
+[2026-02-23 13:59:38,695] - alpha_min: 1e-6
+[2026-02-23 13:59:38,695] - alpha_max: 1e-2
+[2026-02-23 13:59:38,695] - alpha_opt: 4.291934260128778e-05
+[2026-02-23 13:59:38,695] - RMSE_CV: 0.025363443882334948 eV/A
+[2026-02-23 13:59:38,695] - RMSE: 0.0015893496732151712 eV/A
+[2026-02-23 13:59:38,695] - Relative error: 0.02001725407588027
+[2026-02-23 13:59:38,695] - Rank of coefficient matrix: 2118
+[2026-02-23 13:59:38,695] - Free IFC terms: 2118
+[2026-02-23 13:59:38,695] - Non-zero IFC terms: 1904
+[2026-02-23 13:59:40,214] Writing second-order force constants into file.
+[2026-02-23 13:59:40,214] Force constant fitting finished, time cost: 0:00:22.871988.
+[2026-02-23 13:59:40,229] Finalize Pheasy, total time cost: 0:00:23.561528.
+
+==== 05_phonopy ====
+CMD: phonopy --dim 3 3 3 --readfc --band auto -ps --nac
+/opt/conda/envs/atomate2_pheasy/lib/python3.9/site-packages/seekpath/hpkot/__init__.py:172: DeprecationWarning: dict interface is deprecated. Use attribute interface instead
+  conv_lattice = dataset["std_lattice"]
+        _
+  _ __ | |__   ___  _ __   ___   _ __  _   _
+ | '_ \| '_ \ / _ \| '_ \ / _ \ | '_ \| | | |
+ | |_) | | | | (_) | | | | (_) || |_) | |_| |
+ | .__/|_| |_|\___/|_| |_|\___(_) .__/ \__, |
+ |_|                            |_|    |___/
+                                      2.28.0
+
+Compiled with OpenMP support (max 128 threads).
+Python version 3.9.23
+Spglib version 2.6.0
+
+Crystal structure was read from "POSCAR".
+Unit of length: angstrom
+Band structure mode (Auto)
+Settings:
+  Non-analytical term correction (NAC): on
+  Supercell: [3 3 3]
+  Primitive matrix (Auto):
+    [-1.00000000e+00 -1.11022302e-16  0.00000000e+00]
+    [1.11022302e-16 1.00000000e+00 0.00000000e+00]
+    [ 0.  0. -1.]
+Spacegroup: C2/m (12)
+Number of symmetry operations in supercell: 108
+Use -v option to watch primitive cell, unit cell, and supercell structures.
+
+NAC parameters were read from "BORN".
+Force constants are read from "FORCE_CONSTANTS".
+Force constants format was transformed to compact format.
+Array shape of force constants: (8, 216, 3, 3)
+
+SeeK-path is used to generate band paths.
+  About SeeK-path https://seekpath.readthedocs.io/ (citation there-in)
+Reciprocal space paths in reduced coordinates:
+[ 0.000  0.000  0.000] --> [ 0.271  0.271  0.000]
+[-0.271  0.729  0.000] --> [-0.500  0.500  0.000]
+[-0.500  0.500  0.000] --> [ 0.000  0.000  0.000]
+[ 0.000  0.000  0.000] --> [-0.500  0.500  0.500]
+[-0.500  0.500  0.500] --> [-0.265  0.735  0.500]
+[ 0.265  0.265  0.500] --> [ 0.000  0.000  0.500]
+[ 0.000  0.000  0.500] --> [ 0.000  0.000  0.000]
+[ 0.000  0.500  0.500] --> [ 0.000  0.000  0.000]
+[ 0.000  0.000  0.000] --> [ 0.000  0.500  0.000]
+
+Summary of calculation was written in "phonopy.yaml".
+                 _
+   ___ _ __   __| |
+  / _ \ '_ \ / _` |
+ |  __/ | | | (_| |
+  \___|_| |_|\__,_|
+
+Done at Mon Feb 23 13:59:43 PST 2026

@@ -1,0 +1,19 @@
+[2026-02-23 13:58:34,519] Start Pheasy.
+    ___       ___       ___       ___       ___       ___   
+   /\  \     /\__\     /\  \     /\  \     /\  \     /\__\  
+  /::\  \   /:/__/_   /::\  \   /::\  \   /::\  \   |::L__L 
+ /::\:\__\ /::\/\__\ /::\:\__\ /::\:\__\ /\:\:\__\  |:::\__\
+ \/\::/  / \/\::/  / \:\:\/  / \/\::/  / \:\:\/__/  /:;;/__/
+    \/__/    /:/  /   \:\/  /    /:/  /   \::/  /   \/__/   
+             \/__/     \/__/     \/__/     \/__/    0.0.2
+[2026-02-23 13:58:34,525] System: Ag2Bi2O4
+[2026-02-23 13:58:34,525] Space group: C2/m (12), 4 symmetry operations found.
+[2026-02-23 13:58:34,525] Creating 3 x 3 x 3 supercell (216 atoms).
+[2026-02-23 13:58:34,538] Reading and generating cluster space from file, up to 2-order.
+[2026-02-23 13:58:35,074] Cutoff distance (A) for 2-order IFCs: inf
+[2026-02-23 13:58:35,074] Summary of cluster space:
+[2026-02-23 13:58:35,074] - HARM    | cluster number: 330 | IFC number: 2970
+[2026-02-23 13:58:35,074] Starting to construct sensing (displacement) matrix.
+[2026-02-23 13:58:35,074] Reading displaced configurations from file.
+[2026-02-23 13:59:15,927] Construction of sensing (displacement) matrix finished, time cost: 0:00:40.852926.
+[2026-02-23 13:59:15,931] Finalize Pheasy, total time cost: 0:00:41.414680.

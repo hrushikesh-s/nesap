@@ -1,0 +1,15 @@
+[2026-02-23 13:22:12,980] Start Pheasy.
+ ___   _  _  ____   __   ___  _   _ 
+(   ) ( )( )(  __) (  ) /  _)( \_/ )
+| O  || L| || |_   /o \ \_"-. \   / 
+( __/ ( __ )(  _) ( __ ) __) ) ( )  
+/_\   /_\/_\/____\/_\/_\/___/  |_| 0.0.2
+[2026-02-23 13:22:12,997] System: Cu2Nd4O7
+[2026-02-23 13:22:12,997] Space group: C2/m (12), 4 symmetry operations found.
+[2026-02-23 13:22:12,997] Creating 3 x 3 x 3 supercell (351 atoms).
+[2026-02-23 13:22:13,020] Starting to generate cluster space up to 2-order.
+[2026-02-23 13:22:13,020] Cutoff distance (A) for 2-order IFCs: inf
+[2026-02-23 13:22:24,268] Summary of cluster space:
+[2026-02-23 13:22:24,268] - HARM    | cluster number: 830 | IFC number: 7470
+[2026-02-23 13:22:26,265] Cluster space generation finished, time cost: 0:00:13.245033.
+[2026-02-23 13:22:26,265] Finalize Pheasy, total time cost: 0:00:13.287828.

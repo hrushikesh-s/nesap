@@ -1,0 +1,83 @@
+{
+  "state": "COMPLETED",
+  "name": "Flow--965856",
+  "created_on": "2025-12-29T22:01:12.269000",
+  "updated_on": "2025-12-31T14:15:04.808000",
+  "states": {
+    "generate_frequencies_eigenvectors--965814": "COMPLETED",
+    "run_phonon_displacements--965815": "COMPLETED",
+    "generate_phonon_displacements--965816": "COMPLETED",
+    "get_total_energy_per_cell--965817": "COMPLETED",
+    "get_supercell_size--965818": "COMPLETED",
+    "structure_to_primitive--965819": "COMPLETED",
+    "store_inputs--965855": "COMPLETED",
+    "phonon static 10/10--965856": "COMPLETED",
+    "phonon static 9/10--965857": "COMPLETED",
+    "phonon static 8/10--965858": "COMPLETED",
+    "phonon static 7/10--965859": "COMPLETED",
+    "phonon static 6/10--965860": "COMPLETED",
+    "phonon static 5/10--965861": "COMPLETED",
+    "phonon static 4/10--965862": "COMPLETED",
+    "phonon static 3/10--965863": "COMPLETED",
+    "phonon static 2/10--965864": "COMPLETED",
+    "phonon static 1/10--965865": "COMPLETED"
+  },
+  "launch_dirs": {
+    "generate_frequencies_eigenvectors--965814": [
+      "/global/cfs/cdirs/matgen/hrushi99/pheasy_hrushikesh/launcher_2025-12-31-14-05-29-217667"
+    ],
+    "run_phonon_displacements--965815": [
+      "/global/cfs/cdirs/matgen/hrushi99/pheasy_hrushikesh/block_2025-12-28-01-05-02-964175/launcher_2025-12-29-22-00-07-479796/launcher_2025-12-29-22-57-19-377051"
+    ],
+    "generate_phonon_displacements--965816": [
+      "/global/cfs/cdirs/matgen/hrushi99/pheasy_hrushikesh/block_2025-12-28-01-05-02-964175/launcher_2025-12-29-22-00-07-479796/launcher_2025-12-29-22-57-14-961606"
+    ],
+    "get_total_energy_per_cell--965817": [
+      "/global/cfs/cdirs/matgen/hrushi99/pheasy_hrushikesh/block_2025-12-28-01-05-02-964175/launcher_2025-12-29-22-00-07-479796/launcher_2025-12-29-22-57-08-154877"
+    ],
+    "get_supercell_size--965818": [
+      "/global/cfs/cdirs/matgen/hrushi99/pheasy_hrushikesh/block_2025-12-28-01-05-02-964175/launcher_2025-12-29-22-00-07-479796/launcher_2025-12-29-22-57-13-386602"
+    ],
+    "structure_to_primitive--965819": [
+      "/global/cfs/cdirs/matgen/hrushi99/pheasy_hrushikesh/block_2025-12-28-01-05-02-964175/launcher_2025-12-29-22-00-07-479796/launcher_2025-12-29-22-57-03-633269"
+    ],
+    "store_inputs--965855": [
+      "/global/cfs/cdirs/matgen/hrushi99/pheasy_hrushikesh/block_2025-12-29-22-53-45-176889/launcher_2025-12-29-22-58-28-906926/launcher_2025-12-29-23-52-13-496098"
+    ],
+    "phonon static 10/10--965856": [
+      "/global/cfs/cdirs/matgen/hrushi99/pheasy_hrushikesh/block_2025-12-28-01-05-02-964175/launcher_2025-12-29-22-00-12-681773/launcher_2025-12-29-22-59-27-360458"
+    ],
+    "phonon static 9/10--965857": [
+      "/global/cfs/cdirs/matgen/hrushi99/pheasy_hrushikesh/block_2025-12-28-01-05-02-964175/launcher_2025-12-29-22-00-12-681773/launcher_2025-12-29-22-59-27-450150"
+    ],
+    "phonon static 8/10--965858": [
+      "/global/cfs/cdirs/matgen/hrushi99/pheasy_hrushikesh/block_2025-12-28-01-05-02-964175/launcher_2025-12-29-22-31-49-896638/launcher_2025-12-29-22-59-27-870805"
+    ],
+    "phonon static 7/10--965859": [
+      "/global/cfs/cdirs/matgen/hrushi99/pheasy_hrushikesh/block_2025-12-28-01-05-02-964175/launcher_2025-12-29-22-31-49-896638/launcher_2025-12-29-22-59-27-885616"
+    ],
+    "phonon static 6/10--965860": [
+      "/global/cfs/cdirs/matgen/hrushi99/pheasy_hrushikesh/block_2025-12-28-01-05-02-964175/launcher_2025-12-29-22-00-12-681773/launcher_2025-12-29-23-04-20-576868"
+    ],
+    "phonon static 5/10--965861": [
+      "/global/cfs/cdirs/matgen/hrushi99/pheasy_hrushikesh/block_2025-12-28-01-05-02-964175/launcher_2025-12-29-22-31-49-896638/launcher_2025-12-29-23-04-24-667657"
+    ],
+    "phonon static 4/10--965862": [
+      "/global/cfs/cdirs/matgen/hrushi99/pheasy_hrushikesh/block_2025-12-28-01-05-02-964175/launcher_2025-12-29-22-31-49-896638/launcher_2025-12-29-23-04-27-409050"
+    ],
+    "phonon static 3/10--965863": [
+      "/global/cfs/cdirs/matgen/hrushi99/pheasy_hrushikesh/block_2025-12-28-01-05-02-964175/launcher_2025-12-29-22-00-12-681773/launcher_2025-12-29-23-04-29-723682"
+    ],
+    "phonon static 2/10--965864": [
+      "/global/cfs/cdirs/matgen/hrushi99/pheasy_hrushikesh/block_2025-12-28-01-05-02-964175/launcher_2025-12-29-22-00-12-681773/launcher_2025-12-29-23-09-15-797955"
+    ],
+    "phonon static 1/10--965865": [
+      "/global/cfs/cdirs/matgen/hrushi99/pheasy_hrushikesh/block_2025-12-28-01-05-02-964175/launcher_2025-12-29-22-31-49-896638/launcher_2025-12-29-23-09-16-997375"
+    ]
+  },
+  "jobdirs_fallback": {
+    "static_run_job_dir": "/global/cfs/cdirs/matgen/hrushi99/pheasy_hrushikesh/NREL/eleonora/phonon_anh/supercell_241/pheasy/ndata_100/151515/block_2025-05-09-19-24-50-566401/launcher_2025-05-09-19-41-39-049907/launcher_2025-05-14-06-53-28-974215",
+    "born_run_job_dir": "/global/cfs/cdirs/matgen/hrushi99/pheasy_hrushikesh/NREL/eleonora/phonon_anh/supercell_241/pheasy/ndata_100/151515/block_2025-05-09-19-24-50-566401/launcher_2025-05-09-19-41-39-049907/launcher_2025-05-14-07-13-39-557238",
+    "tight_relax_1_run_job_dir": "/global/cfs/cdirs/matgen/hrushi99/pheasy_hrushikesh/NREL/eleonora/phonon_anh/supercell_241/pheasy/ndata_100/151515/block_2025-05-09-19-24-50-566401/launcher_2025-05-09-19-25-45-642160/launcher_2025-05-13-12-52-40-769870"
+  }
+}

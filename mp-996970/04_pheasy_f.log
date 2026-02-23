@@ -1,0 +1,37 @@
+[2026-02-23 13:59:16,670] Start Pheasy.
+{_______  {__     {__{________      {_         {__ __  {__      {__
+{__    {__{__     {__{__           {_ __     {__    {__ {__    {__ 
+{__    {__{__     {__{__          {_  {__     {__        {__ {__   
+{_______  {______ {__{______     {__   {__      {__        {__     
+{__       {__     {__{__        {______ {__        {__     {__     
+{__       {__     {__{__       {__       {__ {__    {__    {__     
+{__       {__     {__{________{__         {__  {__ __      {__   0.0.2
+[2026-02-23 13:59:16,677] System: Ag2Bi2O4
+[2026-02-23 13:59:16,677] Space group: C2/m (12), 4 symmetry operations found.
+[2026-02-23 13:59:16,677] Creating 3 x 3 x 3 supercell (216 atoms).
+[2026-02-23 13:59:16,689] Reading and generating cluster space from file, up to 2-order.
+[2026-02-23 13:59:17,219] Cutoff distance (A) for 2-order IFCs: inf
+[2026-02-23 13:59:17,220] Summary of cluster space:
+[2026-02-23 13:59:17,220] - HARM    | cluster number: 330 | IFC number: 2970
+[2026-02-23 13:59:17,220] Reconstructing null space of symmetry constraints from file.
+[2026-02-23 13:59:17,224] Summary of IFCs:
+[2026-02-23 13:59:17,224] - HARM    | IFC number: 2970  | Free IFC number: 2118
+[2026-02-23 13:59:17,224] Total number of free IFCs: 2118
+[2026-02-23 13:59:17,224] Reconstructing sensing (displacement) matrix from file.
+[2026-02-23 13:59:17,342] Starting to fit interatomic force constants.
+[2026-02-23 13:59:17,453] Reading interatomic forces, 18 configurations.
+[2026-02-23 13:59:17,694] Fitting force constants via the coordinate descent LASSO.
+[2026-02-23 13:59:38,694] Summary of force constants fitting:
+[2026-02-23 13:59:38,695] - Reaching the specified tolerance for the optimal alpha after 59 iterations.
+[2026-02-23 13:59:38,695] - alpha_min: 1e-6
+[2026-02-23 13:59:38,695] - alpha_max: 1e-2
+[2026-02-23 13:59:38,695] - alpha_opt: 4.291934260128778e-05
+[2026-02-23 13:59:38,695] - RMSE_CV: 0.025363443882334948 eV/A
+[2026-02-23 13:59:38,695] - RMSE: 0.0015893496732151712 eV/A
+[2026-02-23 13:59:38,695] - Relative error: 0.02001725407588027
+[2026-02-23 13:59:38,695] - Rank of coefficient matrix: 2118
+[2026-02-23 13:59:38,695] - Free IFC terms: 2118
+[2026-02-23 13:59:38,695] - Non-zero IFC terms: 1904
+[2026-02-23 13:59:40,214] Writing second-order force constants into file.
+[2026-02-23 13:59:40,214] Force constant fitting finished, time cost: 0:00:22.871988.
+[2026-02-23 13:59:40,229] Finalize Pheasy, total time cost: 0:00:23.561528.

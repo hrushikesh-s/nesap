@@ -1,0 +1,27 @@
+[2026-02-23 13:58:30,704] Start Pheasy.
+.______    __    __   _______     ___           _______.____    ____ 
+|   _  \  |  |  |  | |   ____|   /   \         /       |\   \  /   / 
+|  |_)  | |  |__|  | |  |__     /  ^  \       |   (----` \   \/   /  
+|   ___/  |   __   | |   __|   /  /_\  \       \   \      \_    _/   
+|  |      |  |  |  | |  |____ /  _____  \  .----)   |       |  |     
+| _|      |__|  |__| |_______/__/     \__\ |_______/        |__|     
+                                                                  0.0.2
+[2026-02-23 13:58:30,710] System: Ag2Bi2O4
+[2026-02-23 13:58:30,710] Space group: C2/m (12), 4 symmetry operations found.
+[2026-02-23 13:58:30,710] Creating 3 x 3 x 3 supercell (216 atoms).
+[2026-02-23 13:58:30,722] Reading and generating cluster space from file, up to 2-order.
+[2026-02-23 13:58:31,261] Cutoff distance (A) for 2-order IFCs: inf
+[2026-02-23 13:58:31,261] Summary of cluster space:
+[2026-02-23 13:58:31,261] - HARM    | cluster number: 330 | IFC number: 2970
+[2026-02-23 13:58:31,261] Starting to construct symmetry constraints and null space.
+[2026-02-23 13:58:31,261] Symmmetry constraints are imposed in Cartesian coordinate.
+[2026-02-23 13:58:31,262] Symmetry constraints on 2-order IFCs:
+[2026-02-23 13:58:31,262] - Imposing space group and permuation symmetry.
+[2026-02-23 13:58:31,628] - Imposing translational invariance.
+[2026-02-23 13:58:32,708] - Calculating null space.
+[2026-02-23 13:58:33,625] - Time cost: 0:00:02.363000.
+[2026-02-23 13:58:33,625] Summary of IFCs:
+[2026-02-23 13:58:33,625] - HARM    | IFC number: 2970  | Free IFC number: 2118
+[2026-02-23 13:58:33,632] Total number of free IFCs: 2118
+[2026-02-23 13:58:33,634] Construction of symmetry constraints finished, time cost: 0:00:02.372213.
+[2026-02-23 13:58:33,635] Finalize Pheasy, total time cost: 0:00:02.934039.

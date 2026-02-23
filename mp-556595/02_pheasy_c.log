@@ -1,0 +1,25 @@
+[2026-02-23 13:22:27,094] Start Pheasy.
+ ___   _  _  ____   __   ___  _   _ 
+(   ) ( )( )(  __) (  ) /  _)( \_/ )
+| O  || L| || |_   /o \ \_"-. \   / 
+( __/ ( __ )(  _) ( __ ) __) ) ( )  
+/_\   /_\/_\/____\/_\/_\/___/  |_| 0.0.2
+[2026-02-23 13:22:27,100] System: Cu2Nd4O7
+[2026-02-23 13:22:27,100] Space group: C2/m (12), 4 symmetry operations found.
+[2026-02-23 13:22:27,100] Creating 3 x 3 x 3 supercell (351 atoms).
+[2026-02-23 13:22:27,121] Reading and generating cluster space from file, up to 2-order.
+[2026-02-23 13:22:28,708] Cutoff distance (A) for 2-order IFCs: inf
+[2026-02-23 13:22:28,709] Summary of cluster space:
+[2026-02-23 13:22:28,709] - HARM    | cluster number: 830 | IFC number: 7470
+[2026-02-23 13:22:28,709] Starting to construct symmetry constraints and null space.
+[2026-02-23 13:22:28,710] Symmmetry constraints are imposed in Cartesian coordinate.
+[2026-02-23 13:22:28,710] Symmetry constraints on 2-order IFCs:
+[2026-02-23 13:22:28,710] - Imposing space group and permuation symmetry.
+[2026-02-23 13:22:29,758] - Imposing translational invariance.
+[2026-02-23 13:22:33,738] - Calculating null space.
+[2026-02-23 13:22:43,656] - Time cost: 0:00:14.946034.
+[2026-02-23 13:22:43,656] Summary of IFCs:
+[2026-02-23 13:22:43,656] - HARM    | IFC number: 7470  | Free IFC number: 5493
+[2026-02-23 13:22:43,667] Total number of free IFCs: 5493
+[2026-02-23 13:22:43,669] Construction of symmetry constraints finished, time cost: 0:00:14.959327.
+[2026-02-23 13:22:43,670] Finalize Pheasy, total time cost: 0:00:16.578441.
