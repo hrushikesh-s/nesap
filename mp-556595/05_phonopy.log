@@ -1,1 +1,33 @@
-./run_pheasy_phonopy.sh: line 52: srun: command not found
+        _
+  _ __ | |__   ___  _ __   ___   _ __  _   _
+ | '_ \| '_ \ / _ \| '_ \ / _ \ | '_ \| | | |
+ | |_) | | | | (_) | | | | (_) || |_) | |_| |
+ | .__/|_| |_|\___/|_| |_|\___(_) .__/ \__, |
+ |_|                            |_|    |___/
+                                      2.28.0
+
+Compiled with OpenMP support (max 128 threads).
+Python version 3.9.23
+Spglib version 2.6.0
+
+Crystal structure was read from "POSCAR".
+Unit of length: angstrom
+Band structure mode (Auto)
+Settings:
+  Non-analytical term correction (NAC): on
+  Supercell: [3 3 3]
+  Primitive matrix (Auto):
+    [ 2.22044605e-16  1.00000000e+00 -2.77555756e-17]
+    [-1.00000000e+00 -1.66533454e-16  2.77555756e-17]
+    [0. 0. 1.]
+Spacegroup: C2/m (12)
+Number of symmetry operations in supercell: 108
+Use -v option to watch primitive cell, unit cell, and supercell structures.
+
+
+"BORN" was not found.
+  ___ _ __ _ __ ___  _ __
+ / _ \ '__| '__/ _ \| '__|
+|  __/ |  | | | (_) | |
+ \___|_|  |_|  \___/|_|
+

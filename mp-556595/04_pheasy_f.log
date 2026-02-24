@@ -26,3 +26,29 @@ __________  ___ ______________   _____    ______________.___.
   model = cd_fast.enet_coordinate_descent_gram(
 /opt/conda/envs/atomate2_pheasy/lib/python3.9/site-packages/sklearn/linear_model/_coordinate_descent.py:681: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 9.831314066509805, tolerance: 1.01691452990575
   model = cd_fast.enet_coordinate_descent_gram(
+/opt/conda/envs/atomate2_pheasy/lib/python3.9/site-packages/sklearn/linear_model/_coordinate_descent.py:681: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 10.77875048223595, tolerance: 1.01691452990575
+  model = cd_fast.enet_coordinate_descent_gram(
+/opt/conda/envs/atomate2_pheasy/lib/python3.9/site-packages/sklearn/linear_model/_coordinate_descent.py:681: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 2.8282498205873594, tolerance: 1.007900536648428
+  model = cd_fast.enet_coordinate_descent_gram(
+/opt/conda/envs/atomate2_pheasy/lib/python3.9/site-packages/sklearn/linear_model/_coordinate_descent.py:681: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 2.3753020232286417, tolerance: 1.007900536648428
+  model = cd_fast.enet_coordinate_descent_gram(
+/opt/conda/envs/atomate2_pheasy/lib/python3.9/site-packages/sklearn/linear_model/_coordinate_descent.py:681: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 2.2729842084624465, tolerance: 1.007900536648428
+  model = cd_fast.enet_coordinate_descent_gram(
+/opt/conda/envs/atomate2_pheasy/lib/python3.9/site-packages/sklearn/linear_model/_coordinate_descent.py:681: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 5.430344578461074, tolerance: 1.0005080587813215
+  model = cd_fast.enet_coordinate_descent_gram(
+/opt/conda/envs/atomate2_pheasy/lib/python3.9/site-packages/sklearn/linear_model/_coordinate_descent.py:681: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 6.065222197767753, tolerance: 1.0005080587813215
+  model = cd_fast.enet_coordinate_descent_gram(
+[2026-02-23 15:45:34,322] Summary of force constants fitting:
+[2026-02-23 15:45:34,323] - Reaching the specified tolerance for the optimal alpha after 81 iterations.
+[2026-02-23 15:45:34,323] - alpha_min: 1e-6
+[2026-02-23 15:45:34,323] - alpha_max: 1e-2
+[2026-02-23 15:45:34,323] - alpha_opt: 0.002222996482526193
+[2026-02-23 15:45:34,323] - RMSE_CV: 0.30684984409527744 eV/A
+[2026-02-23 15:45:34,323] - RMSE: 0.02043479376089429 eV/A
+[2026-02-23 15:45:34,323] - Relative error: 0.2396696992179389
+[2026-02-23 15:45:34,323] - Rank of coefficient matrix: 5478
+[2026-02-23 15:45:34,323] - Free IFC terms: 5493
+[2026-02-23 15:45:34,323] - Non-zero IFC terms: 1291
+[2026-02-23 15:45:37,835] Writing second-order force constants into file.
+[2026-02-23 15:45:37,835] Force constant fitting finished, time cost: 2:21:28.046585.
+[2026-02-23 15:45:37,863] Finalize Pheasy, total time cost: 2:21:29.907429.
