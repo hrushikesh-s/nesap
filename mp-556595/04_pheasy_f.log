@@ -1,25 +1,26 @@
-[2026-02-23 13:24:07,959] Start Pheasy.
-__________  ___ ______________   _____    ______________.___.
-\______   \/   |   \_   _____/  /  _  \  /   _____/\__  |   |
- |     ___/    ~    \    __)_  /  /_\  \ \_____  \  /   |   |
- |    |   \    Y    /        \/    |    \/        \ \____   |
- |____|    \___|_  /_______  /\____|__  /_______  / / ______|
-                 \/        \/         \/        \/  \/  0.0.2
-[2026-02-23 13:24:07,965] System: Cu2Nd4O7
-[2026-02-23 13:24:07,965] Space group: C2/m (12), 4 symmetry operations found.
-[2026-02-23 13:24:07,965] Creating 3 x 3 x 3 supercell (351 atoms).
-[2026-02-23 13:24:07,987] Reading and generating cluster space from file, up to 2-order.
-[2026-02-23 13:24:09,565] Cutoff distance (A) for 2-order IFCs: inf
-[2026-02-23 13:24:09,566] Summary of cluster space:
-[2026-02-23 13:24:09,566] - HARM    | cluster number: 830 | IFC number: 7470
-[2026-02-23 13:24:09,567] Reconstructing null space of symmetry constraints from file.
-[2026-02-23 13:24:09,572] Summary of IFCs:
-[2026-02-23 13:24:09,572] - HARM    | IFC number: 7470  | Free IFC number: 5493
-[2026-02-23 13:24:09,572] Total number of free IFCs: 5493
-[2026-02-23 13:24:09,572] Reconstructing sensing (displacement) matrix from file.
-[2026-02-23 13:24:09,788] Starting to fit interatomic force constants.
-[2026-02-23 13:24:09,997] Reading interatomic forces, 12 configurations.
-[2026-02-23 13:24:11,717] Fitting force constants via the coordinate descent LASSO.
+[2026-02-23 21:04:57,925] Start Pheasy.
+_///////  _//     _//_////////      _/         _// //  _//      _//
+_//    _//_//     _//_//           _/ //     _//    _// _//    _// 
+_//    _//_//     _//_//          _/  _//     _//        _// _//   
+_///////  _////// _//_//////     _//   _//      _//        _//     
+_//       _//     _//_//        _////// _//        _//     _//     
+_//       _//     _//_//       _//       _// _//    _//    _//     
+_//       _//     _//_////////_//         _//  _// //      _// 0.0.2
+[2026-02-23 21:04:57,931] System: Cu2Nd4O7
+[2026-02-23 21:04:57,931] Space group: C2/m (12), 4 symmetry operations found.
+[2026-02-23 21:04:57,931] Creating 3 x 3 x 3 supercell (351 atoms).
+[2026-02-23 21:04:57,952] Reading and generating cluster space from file, up to 2-order.
+[2026-02-23 21:04:59,555] Cutoff distance (A) for 2-order IFCs: inf
+[2026-02-23 21:04:59,556] Summary of cluster space:
+[2026-02-23 21:04:59,556] - HARM    | cluster number: 830 | IFC number: 7470
+[2026-02-23 21:04:59,556] Reconstructing null space of symmetry constraints from file.
+[2026-02-23 21:04:59,562] Summary of IFCs:
+[2026-02-23 21:04:59,562] - HARM    | IFC number: 7470  | Free IFC number: 5493
+[2026-02-23 21:04:59,562] Total number of free IFCs: 5493
+[2026-02-23 21:04:59,562] Reconstructing sensing (displacement) matrix from file.
+[2026-02-23 21:04:59,777] Starting to fit interatomic force constants.
+[2026-02-23 21:04:59,986] Reading interatomic forces, 12 configurations.
+[2026-02-23 21:05:01,703] Fitting force constants via the coordinate descent LASSO.
 /opt/conda/envs/atomate2_pheasy/lib/python3.9/site-packages/sklearn/linear_model/_coordinate_descent.py:681: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 2.6136606763044483, tolerance: 1.01691452990575
   model = cd_fast.enet_coordinate_descent_gram(
 /opt/conda/envs/atomate2_pheasy/lib/python3.9/site-packages/sklearn/linear_model/_coordinate_descent.py:681: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 4.742631318940823, tolerance: 1.01691452990575
@@ -38,17 +39,17 @@ __________  ___ ______________   _____    ______________.___.
   model = cd_fast.enet_coordinate_descent_gram(
 /opt/conda/envs/atomate2_pheasy/lib/python3.9/site-packages/sklearn/linear_model/_coordinate_descent.py:681: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 6.065222197767753, tolerance: 1.0005080587813215
   model = cd_fast.enet_coordinate_descent_gram(
-[2026-02-23 15:45:34,322] Summary of force constants fitting:
-[2026-02-23 15:45:34,323] - Reaching the specified tolerance for the optimal alpha after 81 iterations.
-[2026-02-23 15:45:34,323] - alpha_min: 1e-6
-[2026-02-23 15:45:34,323] - alpha_max: 1e-2
-[2026-02-23 15:45:34,323] - alpha_opt: 0.002222996482526193
-[2026-02-23 15:45:34,323] - RMSE_CV: 0.30684984409527744 eV/A
-[2026-02-23 15:45:34,323] - RMSE: 0.02043479376089429 eV/A
-[2026-02-23 15:45:34,323] - Relative error: 0.2396696992179389
-[2026-02-23 15:45:34,323] - Rank of coefficient matrix: 5478
-[2026-02-23 15:45:34,323] - Free IFC terms: 5493
-[2026-02-23 15:45:34,323] - Non-zero IFC terms: 1291
-[2026-02-23 15:45:37,835] Writing second-order force constants into file.
-[2026-02-23 15:45:37,835] Force constant fitting finished, time cost: 2:21:28.046585.
-[2026-02-23 15:45:37,863] Finalize Pheasy, total time cost: 2:21:29.907429.
+[2026-02-23 23:18:20,237] Summary of force constants fitting:
+[2026-02-23 23:18:20,238] - Reaching the specified tolerance for the optimal alpha after 81 iterations.
+[2026-02-23 23:18:20,238] - alpha_min: 1e-6
+[2026-02-23 23:18:20,238] - alpha_max: 1e-2
+[2026-02-23 23:18:20,238] - alpha_opt: 0.002222996482526193
+[2026-02-23 23:18:20,238] - RMSE_CV: 0.30684984409527744 eV/A
+[2026-02-23 23:18:20,238] - RMSE: 0.02043479376089429 eV/A
+[2026-02-23 23:18:20,238] - Relative error: 0.2396696992179389
+[2026-02-23 23:18:20,238] - Rank of coefficient matrix: 5478
+[2026-02-23 23:18:20,238] - Free IFC terms: 5493
+[2026-02-23 23:18:20,238] - Non-zero IFC terms: 1291
+[2026-02-23 23:18:23,820] Writing second-order force constants into file.
+[2026-02-23 23:18:23,820] Force constant fitting finished, time cost: 2:13:24.043121.
+[2026-02-23 23:18:23,848] Finalize Pheasy, total time cost: 2:13:25.925928.

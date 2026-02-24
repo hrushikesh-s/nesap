@@ -1,3 +1,5 @@
+/opt/conda/envs/atomate2_pheasy/lib/python3.9/site-packages/seekpath/hpkot/__init__.py:172: DeprecationWarning: dict interface is deprecated. Use attribute interface instead
+  conv_lattice = dataset["std_lattice"]
         _
   _ __ | |__   ___  _ __   ___   _ __  _   _
  | '_ \| '_ \ / _ \| '_ \ / _ \ | '_ \| | | |
@@ -24,10 +26,28 @@ Spacegroup: C2/m (12)
 Number of symmetry operations in supercell: 108
 Use -v option to watch primitive cell, unit cell, and supercell structures.
 
+NAC parameters were read from "BORN".
+Force constants are read from "FORCE_CONSTANTS".
+Force constants format was transformed to compact format.
+Array shape of force constants: (13, 351, 3, 3)
 
-"BORN" was not found.
-  ___ _ __ _ __ ___  _ __
- / _ \ '__| '__/ _ \| '__|
-|  __/ |  | | | (_) | |
- \___|_|  |_|  \___/|_|
+SeeK-path is used to generate band paths.
+  About SeeK-path https://seekpath.readthedocs.io/ (citation there-in)
+Reciprocal space paths in reduced coordinates:
+[ 0.000  0.000  0.000] --> [ 0.275  0.275  0.000]
+[-0.275  0.725  0.000] --> [-0.500  0.500  0.000]
+[-0.500  0.500  0.000] --> [ 0.000  0.000  0.000]
+[ 0.000  0.000  0.000] --> [-0.500  0.500  0.500]
+[-0.500  0.500  0.500] --> [-0.262  0.738  0.500]
+[ 0.262  0.262  0.500] --> [ 0.000  0.000  0.500]
+[ 0.000  0.000  0.500] --> [ 0.000  0.000  0.000]
+[ 0.000  0.500  0.500] --> [ 0.000  0.000  0.000]
+[ 0.000  0.000  0.000] --> [ 0.000  0.500  0.000]
+
+Summary of calculation was written in "phonopy.yaml".
+                 _
+   ___ _ __   __| |
+  / _ \ '_ \ / _` |
+ |  __/ | | | (_| |
+  \___|_| |_|\__,_|
 

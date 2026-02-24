@@ -1,24 +1,19 @@
-[2026-02-23 13:22:44,542] Start Pheasy.
-                    ___           ___           ___           ___                   
-      ___          /  /\         /  /\         /  /\         /  /\          __      
-     /  /\        /  /:/        /  /::\       /  /::\       /  /::\        |  |\    
-    /  /::\      /  /:/        /  /:/\:\     /  /:/\:\     /__/:/\:\       |  |:|   
-   /  /:/\:\    /  /::\ ___   /  /::\ \:\   /  /::\ \:\   _\_ \:\ \:\      |  |:|   
-  /  /::\ \:\  /__/:/\:\  /\ /__/:/\:\ \:\ /__/:/\:\_\:\ /__/\ \:\ \:\     |__|:|__ 
- /__/:/\:\_\:\ \__\/  \:\/:/ \  \:\ \:\_\/ \__\/  \:\/:/ \  \:\ \:\_\/     /  /::::\
- \__\/  \:\/:/      \__\::/   \  \:\ \:\        \__\::/   \  \:\_\:\      /  /:/~~~~
-      \  \::/       /  /:/     \  \:\_\/        /  /:/     \  \:\/:/     /__/:/     
-       \__\/       /__/:/       \  \:\         /__/:/       \  \::/      \__\/      
-                   \__\/         \__\/         \__\/         \__\/            
-                                                                                    0.0.2
-[2026-02-23 13:22:44,548] System: Cu2Nd4O7
-[2026-02-23 13:22:44,548] Space group: C2/m (12), 4 symmetry operations found.
-[2026-02-23 13:22:44,548] Creating 3 x 3 x 3 supercell (351 atoms).
-[2026-02-23 13:22:44,569] Reading and generating cluster space from file, up to 2-order.
-[2026-02-23 13:22:46,160] Cutoff distance (A) for 2-order IFCs: inf
-[2026-02-23 13:22:46,160] Summary of cluster space:
-[2026-02-23 13:22:46,161] - HARM    | cluster number: 830 | IFC number: 7470
-[2026-02-23 13:22:46,161] Starting to construct sensing (displacement) matrix.
-[2026-02-23 13:22:46,161] Reading displaced configurations from file.
-[2026-02-23 13:24:07,093] Construction of sensing (displacement) matrix finished, time cost: 0:01:20.931822.
-[2026-02-23 13:24:07,097] Finalize Pheasy, total time cost: 0:01:22.557459.
+[2026-02-23 21:03:36,077] Start Pheasy.
+/^^^^^^^  /^^     /^^/^^^^^^^^      /^         /^^ ^^  /^^      /^^
+/^^    /^^/^^     /^^/^^           /^ ^^     /^^    /^^ /^^    /^^ 
+/^^    /^^/^^     /^^/^^          /^  /^^     /^^        /^^ /^^   
+/^^^^^^^  /^^^^^^ /^^/^^^^^^     /^^   /^^      /^^        /^^     
+/^^       /^^     /^^/^^        /^^^^^^ /^^        /^^     /^^     
+/^^       /^^     /^^/^^       /^^       /^^ /^^    /^^    /^^     
+/^^       /^^     /^^/^^^^^^^^/^^         /^^  /^^ ^^      /^^  0.0.2
+[2026-02-23 21:03:36,083] System: Cu2Nd4O7
+[2026-02-23 21:03:36,083] Space group: C2/m (12), 4 symmetry operations found.
+[2026-02-23 21:03:36,083] Creating 3 x 3 x 3 supercell (351 atoms).
+[2026-02-23 21:03:36,103] Reading and generating cluster space from file, up to 2-order.
+[2026-02-23 21:03:37,700] Cutoff distance (A) for 2-order IFCs: inf
+[2026-02-23 21:03:37,700] Summary of cluster space:
+[2026-02-23 21:03:37,701] - HARM    | cluster number: 830 | IFC number: 7470
+[2026-02-23 21:03:37,701] Starting to construct sensing (displacement) matrix.
+[2026-02-23 21:03:37,701] Reading displaced configurations from file.
+[2026-02-23 21:04:57,083] Construction of sensing (displacement) matrix finished, time cost: 0:01:19.381408.
+[2026-02-23 21:04:57,086] Finalize Pheasy, total time cost: 0:01:21.012033.
